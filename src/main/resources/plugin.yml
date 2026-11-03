@@ -1,0 +1,15 @@
+name: RivexMeteor
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that creates a meteor that falls randomly at intervals set in the YAML configuration.
+api-version: "1.21"
+commands:
+  rivemeteor:
+    description: Main command for RivexMeteor
+    usage: /rivemeteor
+    permission: rivemeteor.admin
+permissions:
+  rivemeteor.admin:
+    description: Allows access to all RivexMeteor commands
+    default: op
